@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  z-index: 0;
+  position: relative;
+  min-height: 80vh;
+  background: linear-gradient(120deg, #db6395 20%, #c02aee 80%);
+}
+
+.main h1 {
+  margin: 0;
+  padding: 40px 0;
+  color: #f0f0f0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bottom-bcg-circle {
+  z-index: -1;
+  width: 100%;
+  bottom: 150px;
+  position: absolute;
+  border-radius: 40%;
+  min-height: 60vh;
+  background-color: #f0f0f0;
+}
+
+.bottom-bcg {
+  position: relative;
+  min-height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.list-area ul {
+  -webkit-box-shadow: 10px 8px 6px -6px rgba(22, 22, 22, 0.527);
+          box-shadow: 10px 8px 6px -6px rgba(22, 22, 22, 0.527);
+  background-color: white;
+  height: 90vh;
+  width: 400px;
+  border-radius: 20%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+@media only screen and (max-width: 446px) {
+  .list-area ul {
+    width: 300px;
+  }
+}
+
+.list-area li {
+  margin: 50px 10px -20px 0px;
+  cursor: pointer;
+  list-style: none;
+  padding-top: 20px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+}
+
+.user-input {
+  top: 900px;
+  left: 30%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 446px) {
+  .user-input {
+    left: 20%;
+    top: 800px;
+  }
+}
+
+.user-input button {
+  margin-right: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background: linear-gradient(120deg, #db6395 20%, #c02aee 80%);
+  border: 1px solid purple;
+  -webkit-box-shadow: 2px 8px 6px -6px rgba(22, 22, 22, 0.527);
+          box-shadow: 2px 8px 6px -6px rgba(22, 22, 22, 0.527);
+  border-radius: 20%;
+}
+/*# sourceMappingURL=style.css.map */
