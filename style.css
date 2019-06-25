@@ -114,4 +114,25 @@ body {
   text-decoration: line-through;
   color: grey;
 }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 25vh;
+  background-color: #f0f0f0;
+}
+
+footer span {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: relative;
+}
 /*# sourceMappingURL=style.css.map */
